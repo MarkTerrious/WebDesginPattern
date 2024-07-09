@@ -1,0 +1,7 @@
+1. 프로토 타입 패턴
+인스턴스는 다르지만 안에 내용물은 같게 오브젝트를 생성하는 기법.
+
+Ex)
+const boardSquare = new BoardSquare('white');
+const boardSquarePrototype = new BoardSquarePrototype(boardSquare);
+const boardSquareTwo = boardSquarePrototype.clone();
